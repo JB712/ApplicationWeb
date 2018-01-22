@@ -16,6 +16,7 @@ public class MyServlet extends HttpServlet {
 			writer.println("\t<body>Agreat(almost)emptypage</body>");
 			writer.println("</html>");
 			writer.close();
+			
 			}catch(Exception e){
 				e.printStackTrace();
 			}
